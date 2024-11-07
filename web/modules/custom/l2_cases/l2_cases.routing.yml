@@ -1,0 +1,7 @@
+l2_cases.page:
+  path: '/l2-cases'
+  defaults:
+    _controller: '\Drupal\l2_cases\Controllers\L2CasesController::getCaseListPage'
+    _title: 'Custom Content List'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,40 @@
+uuid: 4ffb6235-d5bb-4ae2-9768-7c26a83ade9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.case.field_l2_c_desc
+    - field.field.node.case.field_l2_c_img
+    - node.type.case
+  module:
+    - image
+    - user
+id: node.case.default
+targetEntityType: node
+bundle: case
+mode: default
+content:
+  field_l2_c_desc:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_l2_c_img:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,24 @@
+uuid: aba4b1ea-dbaa-4bed-97b6-0c68fc624e98
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.case.field_l2_c_desc
+    - field.field.node.case.field_l2_c_img
+    - node.type.case
+  module:
+    - user
+id: node.case.teaser
+targetEntityType: node
+bundle: case
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_l2_c_desc: true
+  field_l2_c_img: true

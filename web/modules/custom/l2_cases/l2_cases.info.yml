@@ -1,0 +1,11 @@
+name: L2 Cases
+description: Teste Cases Structure
+package: Custom
+
+type: module
+core_version_requirement: ^10.3 || ^11
+
+dependencies:
+  - drupal:node
+  - drupal:rest
+  - drupal:openapi
