@@ -51,6 +51,14 @@ Com os containers em execução e os pacotes instalados, você pode acessar a ap
 http://drupal.docker.localhost:8000
 ```
 
+### 5. Instalação do Módulo
+
+Para instalar o módulo `l2_cases`, execute o comando:
+
+```bash
+make drush pm:install l2_cases
+```
+
 ## Funcionalidades do Projeto
 
 O projeto inclui um módulo customizado, localizado em `web/modules/custom/l2-cases`, que contém as seguintes funcionalidades:
